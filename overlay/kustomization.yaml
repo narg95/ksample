@@ -1,0 +1,8 @@
+bases:
+- ../base
+
+configMapGenerator:
+- name: test
+  behavior: replace
+  literals:
+    - bar=bu
